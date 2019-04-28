@@ -1,0 +1,47 @@
+* {
+  
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.jumbotron {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1545276000-974f15d80cf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.jumbotron h1,h2 {
+  text-align: center;
+  color: #7FFFD4;
+}
+.hero {
+	background-image: url(https://images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	width: 100%;
+	background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 80vh;
+}
+.hero {
+    p { 
+      text-align: center;
+      color: yellow;
+      font-family: italic;
+      font-size: 25px;
+    }
+    h2 {
+      text-align: center;
+      color: #7FFFD4;	
+    }
+    h3 {	
+      text-align: center;
+      color: #7FFFD4;	
+    
+    }    
+}
